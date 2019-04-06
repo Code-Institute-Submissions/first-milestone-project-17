@@ -107,3 +107,42 @@ margin-top: -3rem;
   font-size: 1.4rem;
   letter-spacing: .1rem;
 }
+
+/*------------------ About Section */
+
+
+/*------------------ Music Section */
+
+/*------------------ Tour Dates Section */
+
+
+/*------------------ Contact Section */
+
+/*------------------ Footer */
+footer {
+  background-color: #40474e;
+  color: #fff;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+  color: #cb2222!important;
+}
+
+
+/*------------------ Media Queries */
+
+@media (max-width: 767px) {
+.navbar-nav {
+    align-items: flex-end;
+}
+}
