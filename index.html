@@ -260,6 +260,12 @@
             crossorigin="anonymous"></script>
         <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
         <!--- End of Script Source Files -->
+        <!-- Fix of navbar collapse issue on mobile -->
+        <script js>
+            $('.navbar-nav>li>a').on('click', function () {
+                $('.navbar-collapse').collapse('hide');
+            });
+        </script>
 </body>
 
 </html>
