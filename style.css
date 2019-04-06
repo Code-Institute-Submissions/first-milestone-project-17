@@ -119,11 +119,13 @@ margin-top: -4rem;
 .narrow h3 {
   font-size: 2.4rem;
   text-transform: uppercase;
-  margin: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
 }
 
 .photo {
   width: 100%;
+  height: 100%;
   padding: 20px;
 }
 
@@ -132,6 +134,33 @@ blockquote {
 }
 
 /*------------------ Music Section */
+
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+  width: 100%;
+}
+
+.heading-underline {
+width: 3rem;
+height: .2rem;
+background-color:  #cb2222;
+margin: 0 auto 2rem;
+}
+
+.track img{
+width: 100%;
+margin-top: 30px;
+}
+
+.track-title {
+  margin: 30px;
+}
+audio {
+  width: 100%;
+}
+
 
 /*------------------ Tour Dates Section */
 
