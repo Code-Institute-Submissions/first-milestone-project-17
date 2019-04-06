@@ -13,6 +13,11 @@ height: 4rem;
 margin-top: -4rem;
 }
 
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
 /*-------------------------- Navigation */
 
 .navbar {
@@ -116,11 +121,18 @@ margin-top: -4rem;
   padding-top: 2rem;
 }
 
-.narrow h3 {
+.heading {
   font-size: 2.4rem;
   text-transform: uppercase;
   margin-bottom: 3rem;
   font-weight: 700;
+}
+
+.heading-underline {
+width: 3rem;
+height: .2rem;
+background-color:  #cb2222;
+margin: 0 auto 2rem;
 }
 
 .photo {
@@ -140,13 +152,6 @@ blockquote {
   padding: 2rem 0 3.5rem;
   border-radius: 0;
   width: 100%;
-}
-
-.heading-underline {
-width: 3rem;
-height: .2rem;
-background-color:  #cb2222;
-margin: 0 auto 2rem;
 }
 
 .track img{
