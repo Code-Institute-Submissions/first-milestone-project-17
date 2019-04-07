@@ -190,6 +190,25 @@ audio {
   padding: 7rem 2rem;
 }
 
+.bit-top-track-button {
+text-decoration: none;
+}
+
+.bit-top-track-button:hover {
+  color: #cb2222;
+  text-decoration: none;
+}
+
+.bit-widget .bit-offers {
+    background-color: #cb2222;
+    border: 1px solid #cb2222;
+    color: #fff;
+}
+
+.bit-widget .bit-offers:hover {
+  background-color: #851e1e;
+  border: 1px solid #851e1e;
+}
 
 .fixed-background h3 {
 margin-bottom: 2rem;
@@ -234,6 +253,25 @@ margin-bottom: 2rem;
 
 /*------------------ Contact Section */
 
+.contact {
+  margin-top: 5rem;
+}
+
+.btn-outline-primary {
+  border-width: medium;
+  width: 30%;
+  text-transform: uppercase;
+  margin: 1rem;
+  background-color: #fff;
+  border-color: #40474e;
+}
+
+.btn-outline-primary:hover {
+  background-color: #cb2222;
+  border-color: #cb2222;
+  
+}
+
 /*------------------ Footer */
 footer {
   background-color: #40474e;
@@ -260,4 +298,11 @@ footer svg.svg-inline--fa:hover {
 .navbar-nav {
     align-items: flex-end;
 }
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
