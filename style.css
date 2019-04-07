@@ -127,6 +127,26 @@ margin-top: -4rem;
   letter-spacing: .1rem;
 }
 
+.social-div {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 90%;
+  left: 87%;
+  z-index: 1;
+}
+
+.social-div a {
+  color: #fff;
+}
+
+.social-div a:hover {
+  color: #cb2222;
+}
+
+.social {
+  margin: 10px 5px;
+}
 /*------------------ About Section */
 
 .narrow {
@@ -290,6 +310,7 @@ footer svg.svg-inline--fa {
 footer svg.svg-inline--fa:hover {
   color: #cb2222!important;
 }
+
 
 
 /*------------------ Media Queries */
