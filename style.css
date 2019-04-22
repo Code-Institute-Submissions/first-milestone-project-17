@@ -180,6 +180,10 @@ blockquote {
   padding: 20px;
 }
 
+.fa-quote-left {
+  color: #cb2222;
+  margin: 2px;
+}
 
 /*------------------ Music Section */
 
@@ -325,7 +329,7 @@ footer svg.svg-inline--fa:hover {
   }
 }
 
-@media screen and (max-width 767px) {
+@media only screen and (max-width 768px) {
   .narrow {
     width: 100%;
   }
