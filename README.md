@@ -12,12 +12,12 @@ The website is a single scrolling page, consisting of five separate areas: Home,
 
 ## Technologies Used
 
-HTML5 and CSS3
-Bootstrap 4
-jQuery - for bootsrap and modal
-Font Awesome - for social media and blockquotes
-Google Fonts - used Poppins
-Visual Studio Code - for IDE and version control
+- HTML5 and CSS3
+- Bootstrap 4
+- jQuery - for bootsrap and modal
+- Font Awesome - for social media and blockquotes
+- Google Fonts - used Poppins
+- Visual Studio Code - for IDE and version control
 
 The website was built using HTML5 and CSS3 on a simple framework by Bootstrap 4, using their navbar, grid system, jumbotron and contact form.
 Tour Dates section was built using Bootstrap and a widget by bandsintown, allowing users to follow the automatically updated view of upcoming (and previous) tour dates.
@@ -25,19 +25,20 @@ Tour Dates section was built using Bootstrap and a widget by bandsintown, allowi
 
 ## Testing
 
-Used HP Pavilion Laptop 15 for developing and testing. Developer tools were used extensively to test responsiveness of the page. Two different browsers were tested on - Google Chrome and Microsoft Edge.
-For tablet size testing used Samsung...
-For mobile functionality used Pocophone1
-Also on a numerous devices of friends and family.
-Tested with validator.w3.org
-On responsinator.com - does not work very well on landscape
+- Used HP Pavilion Laptop 15 for developing and testing. 
+- Developer tools were used extensively to test responsiveness of the page. Two different browsers were tested on - Google Chrome and Microsoft Edge.
+- For tablet size testing used Samsung...
+- For mobile functionality used Pocophone1
+- Also on a numerous devices of friends and family.
+- Tested with validator.w3.org
+- On responsinator.com - does not work very well on landscape
 
 
 ### User stories
-User 1 - liked the layout but video was loading too slowly
-User 2 - Would like a possibility to sign up for a newsletter in case there are news about the band
-User 3 - Missed reading more information about the band, could not find a 'read more' link
-User 4 - 
+- User 1 - liked the layout but video was loading too slowly
+- User 2 - Would like a possibility to sign up for a newsletter in case there are news about the band
+- User 3 - Missed reading more information about the band, could not find a 'read more' link
+- User 4 - 
 
 ## Features
 
@@ -62,10 +63,10 @@ User 4 -
 
 ## Deployment
 
-Used Visual Studio Code for writing the master branch and pushed into github pages. To deploy the website master branch was selected on github.
-In order to clone this code and run it locally select Clone or download link under the repository name.
+* Used Visual Studio Code for writing the master branch and pushed into github pages. To deploy the website master branch was selected on github.
+* In order to clone this code and run it locally select Clone or download link under the repository name.
 $ git clone (copied link)
-There are no differences between the deployed version and the development version.
+* There are no differences between the deployed version and the development version.
 
 
 ## Resources
@@ -76,5 +77,5 @@ There are no differences between the deployed version and the development versio
 
 ### Other resources
 
-Youtube video by Drew Ryan - link
-NME website for quotes - link
+* Youtube video by Drew Ryan - link
+* NME website for quotes - link
