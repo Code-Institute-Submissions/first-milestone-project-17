@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
@@ -56,6 +60,7 @@ margin-top: -4rem;
   height: 100vh;
   display: table;
   z-index: -1;
+  background-color: black;
 }
 
 .home-wrap {
@@ -69,12 +74,14 @@ margin-top: -4rem;
 
 
 #myVideo {
-  position: fixed;
+  position: absolute;
   display: table;
   top: 0;
   left: 0;
-  min-width: 100%;
-  min-height: 100vh;
+  width: 100%;
+  height: auto;
+  /* min-width: 100%; */
+  /* min-height: 100vh; */
   background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
@@ -172,7 +179,6 @@ margin: 0 auto 2rem;
 
 .photo {
   width: 100%;
-  height: 100%;
   padding: 20px;
 }
 
@@ -216,6 +222,7 @@ audio {
   color: white;
   margin-top: 1.15rem;
   padding-top: 2rem;
+  min-height: 100vh;
 }
 
 .bit-top-track-button {
@@ -244,10 +251,12 @@ text-decoration: none;
 .fixed-background {
   position: relative;
   width: 100%;
+  min-height: 100vh;
 }
 
 .fixed-background p {
   margin-top: 1.5rem;
+  
 }
 
 .fixed-wrap {
@@ -270,7 +279,7 @@ text-decoration: none;
   background-image: url(img/bg-kasabian3.jpeg);
   z-index: -1;
   background-size: cover;
-  background-position: center center;
+  
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
