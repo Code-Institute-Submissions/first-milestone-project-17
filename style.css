@@ -238,15 +238,16 @@ text-decoration: none;
   border: 1px solid #851e1e;
 }
 
-.fixed-background p {
-  margin-top: 1.5rem;
-}
+
 
 /*--------------- Fixed Background Image */
 .fixed-background {
   position: relative;
   width: 100%;
-  
+}
+
+.fixed-background p {
+  margin-top: 1.5rem;
 }
 
 .fixed-wrap {
@@ -261,7 +262,7 @@ text-decoration: none;
 
 .fixed {
   position: fixed;
-  display: block;
+  /* display: block; */
   top: 0;
   left: 0;
   width: 100%;
@@ -277,6 +278,10 @@ text-decoration: none;
 
 /*------------------ Contact Section */
 
+.contact {
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
 
 .btn-outline-primary {
   border-width: medium;
@@ -329,8 +334,3 @@ footer svg.svg-inline--fa:hover {
   }
 }
 
-@media only screen and (max-width 768px) {
-  .narrow {
-    width: 100%;
-  }
-}
