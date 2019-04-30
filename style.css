@@ -292,7 +292,7 @@ text-decoration: none;
   padding-top: 3rem;
 }
 
-.btn-outline-primary {
+.btn-outline-dark {
   border-width: medium;
   width: 30%;
   text-transform: uppercase;
@@ -301,7 +301,7 @@ text-decoration: none;
   border-color: #40474e;
 }
 
-.btn-outline-primary:hover {
+.btn-outline-dark:hover {
   background-color: #cb2222;
   border-color: #cb2222;
   
