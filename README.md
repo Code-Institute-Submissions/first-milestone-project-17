@@ -26,7 +26,8 @@ Tour Dates section was built using Bootstrap and a widget by bandsintown, allowi
 ## Testing
 
 - Used HP Pavilion Laptop 15 for developing and testing. 
-- Developer tools were used extensively to test responsiveness of the page. Two different browsers were tested on - Google Chrome and Microsoft Edge.
+- Developer tools were used extensively to test responsiveness of the page and debugging
+- Two different browsers were tested on - Google Chrome and Microsoft Edge.
 - For tablet size testing used Samsung...
 - For mobile functionality used Pocophone1
 - Also on a numerous devices of friends and family.
@@ -77,5 +78,5 @@ $ git clone (copied link)
 
 ### Other resources
 
-* Youtube video by Drew Ryan - link
-* NME website for quotes - link
+* Youtube video by Drew Ryan (Build A Complete HTML & CSS Website with Bootstrap 4) - link https://youtu.be/V_lAhqLXT9A for inspiration
+* NME website for quotes - link https://www.nme.com/photos/kasabian-29-of-tom-and-serge-s-most-hilarious-boasts-1411450
