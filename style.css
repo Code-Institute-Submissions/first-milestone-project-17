@@ -17,6 +17,14 @@ height: 2.5rem;
 margin-top: -4rem;
 }
 
+a:link {
+  color: #cb2222;
+}
+
+a:link:hover {
+  color: #851e1e;
+}
+
 /*--- Extra Bootstrap Column Padding --*/
 [class*="col-"] {
   padding: 1rem;
@@ -112,6 +120,9 @@ margin-top: -4rem;
   color: #fff;
   text-transform: uppercase;
 }
+.caption a {
+  color: white;
+}
 
 .caption h1 {
   font-size: 3.1rem;
@@ -163,10 +174,14 @@ margin-top: -4rem;
   padding-top: 2rem;
 }
 
+
+
+
 .heading {
   font-size: 2.4rem;
   text-transform: uppercase;
   margin-bottom: 3rem;
+  margin-top: 2rem;
   font-weight: 700;
 }
 
@@ -221,12 +236,23 @@ margin-top: 30px;
 
 .track-title {
   margin: 30px;
+  font-weight: 700;
 }
 audio {
   width: 100%;
   
 }
 
+.lyrics {
+  margin-top: 2rem;
+}
+
+
+.album-link {
+  font-size: 2rem;
+  font-weight: 700;
+  
+}
 
 /*------------------ Tour Dates Section */
 
@@ -305,6 +331,10 @@ text-decoration: none;
   padding-top: 3rem;
 }
 
+#contact a {
+  color: black;
+}
+
 .btn-outline-dark {
   border-width: medium;
   width: 30%;
@@ -316,8 +346,7 @@ text-decoration: none;
 
 .btn-outline-dark:hover {
   background-color: #cb2222;
-  border-color: #cb2222;
-  
+  border-color: #cb2222;  
 }
 
 /*------------------ Footer */
@@ -327,7 +356,7 @@ footer {
   padding: 2rem 0 2rem;
 }
 
-footer a {
+footer a:link {
   color: #fff;
 }
 
@@ -339,7 +368,25 @@ footer svg.svg-inline--fa:hover {
   color: #cb2222!important;
 }
 
+/*-------------------Submit Page */
 
+.submit-success {
+color: white;
+  left: 50%;
+  padding-top: 20px;
+  
+}
+
+.back-btn {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.bg-submit {
+  background-color: black;
+  height: 100vh;
+  position: relative;
+}
 
 /*------------------ Media Queries */
 
