@@ -46,21 +46,21 @@ Tour Dates section was built using Bootstrap and a widget by bandsintown, allowi
 ### Existing Features
 
 * Landing page with full screen video background
-* Responsive avigation bar that is fully visible from any part of the web page and collapses on mobile devices.
+* Responsive navigation bar that is fully visible from any part of the web page and collapses on mobile devices.
 * Link to listen to the new songs on main landing page
 * Social links on bottom right of the landing page that lead to the social media accounts of the band
-* About section with short information about the band and best quotes by two of the band members
-* Media section enables to listen to three songs in full
+* About section with short information about the band, band facts and best quotes by two of the band members
+* Media section enables to listen to three songs in full and provides links to songs lyrics, also a link to listen to more songs
 * Tour Dates section with built-in widget connecting with bandsintown
 * Fixed background image behind Tour Dates section
-* Flexible Bootstrap 4 contact form
+* Flexible Bootstrap 4 contact form that gives user a success message on a separate page after submitting, providing a link to go back to home page
 * Footer with icon links to social media accounts of the band
 
 
 ### Features yet to implement
 * Link to purchase the album
-* Possibly more info about the band
 * Possibly sign up to newsletter
+* Override widget colour
 
 ## Deployment
 
@@ -80,3 +80,5 @@ $ git clone (copied link)
 
 * Youtube video by Drew Ryan (Build A Complete HTML & CSS Website with Bootstrap 4) - link https://youtu.be/V_lAhqLXT9A for inspiration
 * NME website for quotes - link https://www.nme.com/photos/kasabian-29-of-tom-and-serge-s-most-hilarious-boasts-1411450
+https://www.nme.com/photos/50-geeky-facts-you-might-not-know-about-kasabian-1404688
+https://en.wikipedia.org/wiki/Kasabian

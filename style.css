@@ -17,13 +17,7 @@ height: 2.5rem;
 margin-top: -4rem;
 }
 
-a:link {
-  color: #cb2222;
-}
 
-a:link:hover {
-  color: #851e1e;
-}
 
 /*--- Extra Bootstrap Column Padding --*/
 [class*="col-"] {
@@ -192,6 +186,14 @@ background-color:  #cb2222;
 margin: 0 auto 2rem;
 }
 
+.lead a {
+  color: #cb2222;
+}
+
+.lead a:hover {
+  color: #851e1e;
+}
+
 .facts-heading {
   font-size: 2rem;
   margin-bottom: 3rem;
@@ -247,11 +249,26 @@ audio {
   margin-top: 2rem;
 }
 
+.link-lyrics a {
+  color: #cb2222;
+}
+
+.link-lyrics a:hover {
+  color: #851e1e;
+}
+
 
 .album-link {
   font-size: 2rem;
   font-weight: 700;
-  
+}
+
+.album-link a {
+  color: #cb2222;
+}
+
+.album-link a:hover {
+  color: #851e1e;
 }
 
 /*------------------ Tour Dates Section */
@@ -269,19 +286,20 @@ text-decoration: none;
 }
 
 .bit-top-track-button:hover {
-  color: #cb2222;
+  color: #cb2222!important;
   text-decoration: none;
 }
 
 .bit-widget .bit-offers {
-    background-color: #cb2222;
-    border: 1px solid #cb2222;
+    background-color: #cb2222!important;
+    border: 1px solid #cb2222!important;
     color: #fff;
 }
 
 .bit-widget .bit-offers:hover {
-  background-color: #851e1e;
-  border: 1px solid #851e1e;
+  background-color: #851e1e!important;
+  border: 1px solid #851e1e!important;
+  color: black!important;
 }
 
 
@@ -357,7 +375,7 @@ footer {
 }
 
 footer a:link {
-  color: #fff;
+  color: #fff!important;
 }
 
 footer svg.svg-inline--fa {
