@@ -31,15 +31,24 @@ Tour Dates section was built using Bootstrap and a widget by bandsintown, allowi
 - For tablet size testing used Samsung...
 - For mobile functionality used Pocophone1
 - Also on a numerous devices of friends and family.
-- Tested with validator.w3.org
-- On responsinator.com - does not work very well on landscape
+- Tested html and css with validator.w3.org
+- Tested different devices on responsinator.com - does not work very well on landscape
+
+### Issues found during testing and solutions
+During testing found following issues:
+- Full screen video background was only showing left top corner on mobile devices. Decided to modify that.
+- On mobile devices Bootstrap navbar expands into top left hand side, changed that
+- Same navbar does not disappear when clicked on a link, solution found.
+- Fixed background image was cutting off heads on mobile devices.
+- Bandsintown widget was overriding the colour scheme of the website, was only able to override this by using !important
+- Contact form was not giving users any feedback, decided to create a new file ("submit.html") to accommodate this
 
 
 ### User stories
 - User 1 - liked the layout but video was loading too slowly
 - User 2 - Would like a possibility to sign up for a newsletter in case there are news about the band
-- User 3 - Missed reading more information about the band, could not find a 'read more' link
-- User 4 - 
+- User 3 - Would have loved to find out more about the band but could not find a 'read more' link
+- User 4 - Looked at the page on a mobile, loved the colour scheme and usability but found the background video was a bit too small.
 
 ## Features
 
