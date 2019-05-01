@@ -374,8 +374,8 @@ footer {
   padding: 2rem 0 2rem;
 }
 
-footer a:link {
-  color: #fff!important;
+footer a {
+  color: #fff;
 }
 
 footer svg.svg-inline--fa {
@@ -383,7 +383,7 @@ footer svg.svg-inline--fa {
   margin: 1.2rem .5rem 0 0;
 }
 footer svg.svg-inline--fa:hover {
-  color: #cb2222!important;
+  color: #cb2222;
 }
 
 /*-------------------Submit Page */
