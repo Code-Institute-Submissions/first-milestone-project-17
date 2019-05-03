@@ -261,6 +261,7 @@ audio {
 .album-link {
   font-size: 2rem;
   font-weight: 700;
+text-align: center;
 }
 
 .album-link a {
@@ -270,6 +271,7 @@ audio {
 .album-link a:hover {
   color: #851e1e;
 }
+
 
 /*------------------ Tour Dates Section */
 
