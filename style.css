@@ -418,7 +418,10 @@ color: white;
     width: 90%;
     padding-top: 1rem;
   }
-.fixed {
+}
+
+@media (max-width: 768px) {
+  .fixed {
   left: 10%;
 }
 }
@@ -428,6 +431,7 @@ color: white;
   left: 0;
 }
 }
+
 
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
