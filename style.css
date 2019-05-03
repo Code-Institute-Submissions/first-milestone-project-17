@@ -419,6 +419,12 @@ color: white;
     padding-top: 1rem;
   }
 .fixed {
+  left: 10%;
+}
+}
+
+@media (max-width: 600px) {
+.fixed {
   left: 0;
 }
 }
@@ -430,4 +436,3 @@ color: white;
   }
 }
 
-  
