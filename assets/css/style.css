@@ -18,7 +18,6 @@ margin-top: -4rem;
 }
 
 
-
 /*--- Extra Bootstrap Column Padding --*/
 [class*="col-"] {
   padding: 1rem;
@@ -195,9 +194,6 @@ margin-top: -4rem;
   padding-top: 2rem;
 }
 
-
-
-
 .heading {
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -343,6 +339,10 @@ text-decoration: none;
   color: black!important;
 }
 
+.bit-widget .bit-top-track-button span {
+    text-decoration: none!important;
+}
+
 .bit-widget .bit-clickable {
     color: #cb2222!important;
 }
@@ -360,21 +360,21 @@ text-decoration: none;
 }
 
 .bit-widget .bit-rsvp {
-    color: white;
-    border: 1px solid #cb2222;
+    color: white!important;
+    border: 1px solid #cb2222!important;
 }
 
 .bit-widget .bit-event .bit-rsvp {
-    background-color: #cb2222;
+    background-color: #cb2222!important;
 }
 
 .bit-details a:hover {
-  color: black;
+  color: black!important;
 }
 
 .bit-date, .bit-venue, .bit-location {
-  color: white;
-  text-decoration: none;
+  color: white!important;
+  text-decoration: none!important;
 }
 
  a:hover {
@@ -383,13 +383,13 @@ text-decoration: none;
 }
 
 .bit-widget .bit-upcoming-events-show-all-button, .bit-past-events-show-all-button {
-    color: #cb2222;
-    border: 1px solid #cb2222;
+    color: #cb2222!important;
+    border: 1px solid #cb2222!important;
 }
 
 .bit-widget .bit-upcoming-events-show-all-button, .bit-past-events-show-all-button:hover {
-    color: #851e1e;
-    border: 1px solid #851e1e;
+    color: #851e1e!important;
+    border: 1px solid #851e1e!important;
 }
 
 
@@ -421,7 +421,7 @@ text-decoration: none;
   left: 20%;
   width: 100%;
   height: 100%;
-  background-image: url(img/kasabian-bg.jpg);
+  background-image: url(/assets/img/kasabian-bg.jpg);
   
   z-index: -1;
   background-size: contain;

@@ -7,7 +7,7 @@
     <title>Kasabian - New Album Out Now</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets\css\style.css">
     <link rel="shortcut icon" href="">
 </head>
 
@@ -20,7 +20,7 @@
         <div class="home-wrap">
             <div class="home-inner">
                 <video autoplay muted loop playinline id="myVideo" class="videoInsert">
-                    <source src="media/kiss1.mp4" type="video/mp4">
+                    <source src="assets/media/kiss1.mp4" type="video/mp4">
                 </video>
 
             </div>
@@ -32,7 +32,7 @@
     <!-- Navigation -->
     <div>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#home"><img src="img/kasabian.jpg" alt="Kasabian Logo"></a>
+            <a class="navbar-brand" href="#home"><img src="assets/img/kasabian.jpg" alt="Kasabian Logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -76,7 +76,6 @@
             <a class="btn btn-outline-light btn-lg" href="#music">Listen</a>
         </div>
 
-        <!-- <a class="back-to-top" href="#home">&#8593; Top</a> -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
         <!-- End Landing Page Section -->
@@ -197,7 +196,7 @@
                 <h3 class="facts-heading text-center">Quotes:</h3>
                 <div class="row">
                     <div class="col-lg-4 col-md-11">
-                        <img class="photo" src="img/tom.jpg" alt="Tom Meighan">
+                        <img class="photo" src="assets/img/tom.jpg" alt="Tom Meighan">
                     </div>
                     <div class="col-md-11 col-lg-8">
                         <blockquote>
@@ -238,7 +237,7 @@
             <div class="col-12">
                 <div class="row">
                     <div class="col-lg-4 col-md-11">
-                        <img class="photo" src="img/serge.jpg" alt="Sergio Pizzorno">
+                        <img class="photo" src="assets/img/serge.jpg" alt="Sergio Pizzorno">
                     </div>
                     <div class="col-md-11 col-lg-8">
                         <blockquote>
@@ -297,12 +296,12 @@
                         <div class="col-md-12 track">
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <img src="img/Velociraptor!.jpg" alt="Velociraptor! Album Cover">
+                                    <img src="assets/img/Velociraptor!.jpg" alt="Velociraptor! Album Cover">
                                 </div>
                                 <div class="col-lg-8">
                                     <h4 class="track-title">Goodbye Kiss</h4>
                                     <audio controls>
-                                        <source src="media/Goodbye_Kiss.mp3" type="audio/mpeg">
+                                        <source src="assets/media/Goodbye_Kiss.mp3" type="audio/mpeg">
                                         Your browser does not support the audio element.
                                     </audio>
                                     <p class="lyrics"><i>Doomed from the start<br>
@@ -323,12 +322,12 @@
                         <div class="col-md-12 track">
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <img src="img/ForCryingOutLoud.jpg" alt="For Crying Out Loud Album Cover">
+                                    <img src="assets/img/ForCryingOutLoud.jpg" alt="For Crying Out Loud Album Cover">
                                 </div>
                                 <div class="col-lg-8">
                                     <h4 class="track-title">You're in Love with a Psycho</h4>
                                     <audio controls>
-                                        <source src="media/Psycho.mp3" type="audio/mpeg">
+                                        <source src="assets/media/Psycho.mp3" type="audio/mpeg">
                                         Your browser does not support the audio element.
                                     </audio>
                                     <p class="lyrics"><i>You know it's the place I need<br>
@@ -349,12 +348,12 @@
                         <div class="col-md-12 track">
                             <div class="row">
                                 <div class="col-lg-4">
-                                    <img src="img/Kasabian-album.jpg" alt="Kasabian Album cover">
+                                    <img src="assets/img/Kasabian-album.jpg" alt="Kasabian Album cover">
                                 </div>
                                 <div class="col-lg-8">
                                     <h4 class="track-title">Club Foot</h4>
                                     <audio controls>
-                                        <source src="media/Foot.mp3" type="audio/mpeg">
+                                        <source src="assets/media/Foot.mp3" type="audio/mpeg">
                                         Your browser does not support the audio element.
                                     </audio>
                                     <p class="lyrics"><i>One, take control of me?<br>
@@ -439,15 +438,12 @@
                             <input type="email" class="form-control" id="email" name="email" placeholder="E-mail"
                                 required>
                         </div>
-
                         <div class="form-group col-lg-12">
                             <label class="form-control-label" for="message">Message</label>
                             <textarea class="form-control" id="message" name="message" rows="6"
                                 placeholder="Tell us why you love us." required></textarea>
                         </div>
                         <button class="btn btn-outline-dark" type="submit">Send</button>
-
-
                     </form>
                 </div>
             </div>
@@ -488,7 +484,7 @@
             $('.navbar-collapse').collapse('hide');
         });
     </script>
-    <!-- Javascript for Scroll To Top button -->
+    <!-- Javascript code for Scroll To Top button -->
     <script>
         window.onscroll = function () { scrollFunction() };
 
