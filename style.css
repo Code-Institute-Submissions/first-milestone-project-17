@@ -275,11 +275,24 @@ audio {
 /*------------------ Tour Dates Section */
 
 .dark {
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.8);
   color: white;
   margin-top: 1.15rem;
   padding-top: 2rem;
   min-height: 100vh;
+}
+
+.bit-widget .bit-top-track-button {
+    font-size: 20px;
+}
+
+.bit-widget .bit-event-list-title {
+
+    font-size: 18px;
+}
+
+.bit-widget {
+  font-size: 20px;
 }
 
 .bit-top-track-button {
@@ -303,6 +316,54 @@ text-decoration: none;
   color: black!important;
 }
 
+.bit-widget .bit-clickable {
+    color: #cb2222!important;
+}
+
+.bit-widget .bit-clickable:hover {
+    color: #851e1e!important;
+}
+
+.bit-widget .bit-venue {
+    color: #cb2222!important;
+}
+
+.bit-widget .bit-venue:hover {
+    color: #851e1e!important;
+}
+
+.bit-widget .bit-rsvp {
+    color: white;
+    border: 1px solid #cb2222;
+}
+
+.bit-widget .bit-event .bit-rsvp {
+    background-color: #cb2222;
+}
+
+.bit-details a:hover {
+  color: black;
+}
+
+.bit-date, .bit-venue, .bit-location {
+  color: white;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.bit-widget .bit-upcoming-events-show-all-button, .bit-past-events-show-all-button {
+    color: #cb2222;
+    border: 1px solid #cb2222;
+}
+
+.bit-widget .bit-upcoming-events-show-all-button, .bit-past-events-show-all-button:hover {
+    color: #851e1e;
+    border: 1px solid #851e1e;
+}
 
 
 /*--------------- Fixed Background Image */
