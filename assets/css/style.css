@@ -306,25 +306,25 @@ audio {
 }
 
 .bit-widget .bit-top-track-button {
-    font-size: 20px;
+    font-size: 20px!important;
 }
 
 .bit-widget .bit-event-list-title {
 
-    font-size: 18px;
+    font-size: 18px!important;
 }
 
 .bit-widget {
-  font-size: 20px;
+  font-size: 20px!important;
 }
 
 .bit-top-track-button {
-text-decoration: none;
+text-decoration: none!important;
 }
 
 .bit-top-track-button:hover {
   color: #cb2222!important;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 .bit-widget .bit-offers {
