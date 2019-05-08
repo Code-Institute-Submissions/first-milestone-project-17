@@ -18,7 +18,7 @@ margin-top: -4rem;
 }
 
 
-/*--- Extra Bootstrap Column Padding --*/
+/*----------- Extra Bootstrap Column Padding */
 [class*="col-"] {
   padding: 1rem;
 }
@@ -55,7 +55,6 @@ margin-top: -4rem;
 
 /*------------------------------ Landing Page  */
 
-
 .landing {
   position: relative;
   width: 100%;
@@ -73,7 +72,6 @@ margin-top: -4rem;
   width: 100%;
   height: 100%;
 }
-
 
 #myVideo {
   position: absolute;
@@ -139,6 +137,7 @@ margin-top: -4rem;
   letter-spacing: .1rem;
 }
 
+/* -------------Social links */
 .social-div {
   width: 100%;
   max-width: 100%;
@@ -160,11 +159,7 @@ margin-top: -4rem;
   margin: 10px 5px;
 }
 
-.back-to-top {
-    position: fixed;
-    bottom: 10px;
-  
-}
+/* -------------Back to Top */
 
 #myBtn {
   display: none; 
@@ -253,7 +248,7 @@ blockquote {
   width: 100%;
 }
 
-.track img{
+.track img {
 width: 100%;
 margin-top: 30px;
 }
@@ -262,9 +257,9 @@ margin-top: 30px;
   margin: 30px;
   font-weight: 700;
 }
+
 audio {
   width: 100%;
-  
 }
 
 .lyrics {
@@ -310,7 +305,6 @@ audio {
 }
 
 .bit-widget .bit-event-list-title {
-
     font-size: 18px!important;
 }
 
@@ -401,8 +395,7 @@ text-decoration: none!important;
 }
 
 .fixed-background p {
-  margin-top: 1.5rem;
-  
+  margin-top: 1.5rem;  
 }
 
 .fixed-wrap {
@@ -422,11 +415,9 @@ text-decoration: none!important;
   width: 100%;
   height: 100%;
   background-image: url(../img/kasabian-bg.jpg);
-  
   z-index: -1;
   background-size: contain;
   background-repeat: no-repeat;
-  
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
@@ -481,8 +472,7 @@ footer svg.svg-inline--fa:hover {
 .submit-success {
 color: white;
   left: 50%;
-  padding-top: 20px;
-  
+  padding-top: 20px; 
 }
 
 .back-btn {
@@ -512,6 +502,9 @@ color: white;
   .fixed {
   left: 10%;
 }
+  .bit-widget.bit-layout-ipad .bit-event .bit-button {
+    width: 135px!important;
+}
 }
 
 @media (max-width: 600px) {
@@ -519,7 +512,6 @@ color: white;
   left: 0;
 }
 }
-
 
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
