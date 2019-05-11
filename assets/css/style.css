@@ -298,8 +298,10 @@ audio {
   min-height: 100vh;
 }
 
+/* Using !important to override widget styles */
+
 .bit-widget .bit-top-track-button {
-    font-size: 20px!important;
+    font-size: 20px!important; 
 }
 
 .bit-widget .bit-event-list-title {
@@ -320,9 +322,9 @@ text-decoration: none!important;
 }
 
 .bit-widget .bit-offers {
-    background-color: #cb2222!important;
-    border: 1px solid #cb2222!important;
-    color: #fff;
+  background-color: #cb2222!important;
+  border: 1px solid #cb2222!important;
+  color: #fff;
 }
 
 .bit-widget .bit-offers:hover {
@@ -332,32 +334,32 @@ text-decoration: none!important;
 }
 
 .bit-widget .bit-top-track-button span {
-    text-decoration: none!important;
+  text-decoration: none!important;
 }
 
 .bit-widget .bit-clickable {
-    color: #cb2222!important;
+  color: #cb2222!important;
 }
 
 .bit-widget .bit-clickable:hover {
-    color: #851e1e!important;
+  color: #851e1e!important;
 }
 
 .bit-widget .bit-venue {
-    color: #cb2222!important;
+  color: #cb2222!important;
 }
 
 .bit-widget .bit-venue:hover {
-    color: #851e1e!important;
+  color: #851e1e!important;
 }
 
 .bit-widget .bit-rsvp {
-    color: white!important;
-    border: 1px solid #cb2222!important;
+  color: white!important;
+  border: 1px solid #cb2222!important;
 }
 
 .bit-widget .bit-event .bit-rsvp {
-    background-color: #cb2222!important;
+  background-color: #cb2222!important;
 }
 
 .bit-details a:hover {
@@ -375,13 +377,13 @@ text-decoration: none!important;
 }
 
 .bit-widget .bit-upcoming-events-show-all-button, .bit-past-events-show-all-button {
-    color: #cb2222!important;
-    border: 1px solid #cb2222!important;
+  color: #cb2222!important;
+  border: 1px solid #cb2222!important;
 }
 
 .bit-widget .bit-upcoming-events-show-all-button, .bit-past-events-show-all-button:hover {
-    color: #851e1e!important;
-    border: 1px solid #851e1e!important;
+  color: #851e1e!important;
+  border: 1px solid #851e1e!important;
 }
 
 
@@ -488,7 +490,7 @@ color: white;
 
 @media (max-width: 767px) {
 .navbar-nav {
-    align-items: flex-end;
+    align-items: flex-end; // Fix for navbar collapse
 }
 .narrow {
     width: 90%;
