@@ -22,12 +22,11 @@ The link to the deployed website is [here](https://kilokilo12.github.io/first-mi
 * As an artist I like beautiful colour schemes and layouts
 
 
-
 ### Layout
 
-The website is a single scrolling page, consisting of five separate areas: **Home**, **About**, **Music**, **Tour Dates** and **Contact**. It has navigation links on top of the screen, making it easy to navigate between different parts of the page.
+The website is a single scrolling page, consisting of five separate areas: **Home**, **About**, **Music**, **Tour Dates** and **Contact**. It has fixed navigation links on top of the screen, making it easy to navigate between different parts of the page.
 
-The mock up pages are stored on [Figma](https://www.figma.com/file/IL9Iy0zmTcOyDZGFOj1r6Cdo/Kasabian?node-id=0%3A1)
+The wireframes for this website are stored on [Figma](https://www.figma.com/file/IL9Iy0zmTcOyDZGFOj1r6Cdo/Kasabian?node-id=0%3A1)
 
 
 
@@ -40,14 +39,14 @@ The mock up pages are stored on [Figma](https://www.figma.com/file/IL9Iy0zmTcOyD
 * Landing page with a video background that plays automatically without sound, clearly visible button to go to music section to listen to the songs.
 * Responsive navigation bar built using Bootstrap that is fully visible from any part of the web page and collapses into a hamburger on the top right hand side on devices with screen width that is smaller than 768px. 
 * Social links on bottom right of the landing page that lead to the social media accounts of the band.
-* Back to top button at the bottom right corner of every page, albeit home page, enabling users to easily go back to the landing page.
-* About section with short information about the band, band facts and best quotes by two of the band members, there are also two photos in this section.
-* Media section enables users to listen to three songs in full using HTML audio and provides links to songs lyrics, there is also a link to listen to more songs and to purchase albums.
-* Tour Dates section with built-in widget connecting with bandsintown website and fixed background image behind Tour Dates section.
-* Flexible Bootstrap 4 contact form with data validation that gives user a success message on a separate page after submitting, providing a link to go back to home page.
+* *Back to top* button at the bottom right corner of every page, albeit home page, enabling users to easily go back to the landing page.
+* **About** section with short information about the band, band facts and best quotes by two of the band members, there are also two photos in this section.
+* **Media** section enables users to listen to three songs in full using HTML audio and provides links to songs lyrics, there is also a link to listen to more songs and to purchase albums.
+* **Tour Dates** section with built-in widget connecting with bandsintown website and fixed background image behind Tour Dates section.
+* Flexible Bootstrap 4 contact form in **Contact** section with data validation that gives user a success message on a separate page after submitting, providing a link to go back to home page.
 * Footer with icon links to social media accounts of the band.
 * All links open in a new tab, improving user experience.
-* ScrollSpy feature in Bootstrap and smooth scrolling for better UX.
+* Smooth scrolling for better UX.
 * Consistent colour scheme was used throughout the page, ensuring better user experience.
 
 
