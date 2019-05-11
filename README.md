@@ -98,18 +98,17 @@ Tour Dates section was built using Bootstrap and a widget by [bandsintown](https
 
 During testing found following issues:
 - Full screen video background was only showing left top corner on mobile devices. Decided to modify that and replace full screen with fixed width and height.
-- The background video was taking too long to load, after trying several different options it was cropped and compressed, black background was used for smoother transitioning.
+- The background video was taking quite long to load, after trying several different options it was cropped and compressed, black background was used for smoother transitioning.
 - On mobile devices Bootstrap navbar expanded into top left hand side, changed that by adding a media query.
 - Also on mobile devices, navbar items did not disappear when clicked on any link, solution found on this [page](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) and jQuery script added to the end of script files.
 - Fixed background image was cutting off heads on mobile devices, fixed using CSS.
-- Bandsintown widget had in-built styling that had to be overridden by using !important values on respective attributes.
-- Contact form was not giving users any feedback, decided to create a new file ("submit.html") to accommodate this
+- Bandsintown widget had in-built styling that had to be overridden by using `!important` values on respective attributes.
+- Contact form was not giving users any feedback, decided to create a new file ["submit.html"](https://kilokilo12.github.io/first-milestone-project/submit.html) to accommodate this
 - Was getting an error regarding favicon. Fixed that by creating an icon using <https://www.favicon-generator.org/>
 - After restructuring the files the fixed background was not loading, fixed this by using relative file path.
 
 
-
-## User stories
+### User stories
 
 - User 1 - The video was loading quite slowly but the transition was smooth and looked great
 - User 2 - Would like a possibility to sign up for a newsletter for when I can purchase the album
